@@ -1,0 +1,49 @@
+Arguments: 
+  /Users/joe/.nvm/versions/node/v10.15.0/bin/node /Users/joe/.nvm/versions/node/v10.15.0/bin/yarn add @openzeppelin
+
+PATH: 
+  /Users/joe/.nvm/versions/node/v10.15.0/bin:/Users/joe/anaconda2/anaconda/bin:/Users/joe/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/joe/anaconda2/anaconda/bin:/Users/joe/.cargo/bin:/usr/local/eosio/bin:/Users/joe/go/bin:/Users/joe/eosio/2.0.5/bin:/usr/local/go/bin:/usr/local/eosio/bin:/Users/joe/go/bin:/Users/joe/.cargo/bin:/Users/joe/eosio/2.0.5/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  10.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/@openzeppelin: Request "https://registry.npm.taobao.org/@openzeppelin" returned a 405
+      at Request.params.callback [as _callback] (/Users/joe/.nvm/versions/node/v10.15.0/lib/node_modules/yarn/lib/cli.js:66956:18)
+      at Request.self.callback (/Users/joe/.nvm/versions/node/v10.15.0/lib/node_modules/yarn/lib/cli.js:140665:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/Users/joe/.nvm/versions/node/v10.15.0/lib/node_modules/yarn/lib/cli.js:141637:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/Users/joe/.nvm/versions/node/v10.15.0/lib/node_modules/yarn/lib/cli.js:141559:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "hardhat-project",
+    "devDependencies": {
+      "@nomiclabs/hardhat-ethers": "^2.0.2",
+      "@nomiclabs/hardhat-waffle": "^2.0.1",
+      "chai": "^4.3.4",
+      "ethereum-waffle": "^3.3.0",
+      "ethers": "^5.1.3",
+      "hardhat": "^2.2.0"
+    },
+    "dependencies": {
+      "@pancakeswap/pancake-swap-lib": "^0.0.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

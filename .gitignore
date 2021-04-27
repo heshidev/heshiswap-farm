@@ -1,0 +1,10 @@
+node_modules
+
+#Hardhat files
+cache
+artifacts
+node_modules/
+build/
+hardhat.config.js
+scripts/
+yarn.lock
